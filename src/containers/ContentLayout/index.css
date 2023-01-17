@@ -1,0 +1,10 @@
+.content-layout > .ant-row {
+  min-height: calc(100vh - 64px);
+}
+
+.content-layout__menu {
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+}

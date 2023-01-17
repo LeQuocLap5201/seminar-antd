@@ -1,0 +1,27 @@
+.content-detail__main {
+  padding: 20px 40px;
+}
+
+.content-detail .ant-anchor-link {
+  font-size: 12px;
+}
+
+.content-detail h1 {
+  font-size: 30px;
+}
+
+.content-detail h2 {
+  font-size: 24px;
+}
+
+.content-detail h3 {
+  font-size: 18px;
+}
+
+.content-detail img {
+  width: 100%;
+}
+
+.content-detail img.with-margin {
+  margin: 16px 0;
+}

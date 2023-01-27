@@ -1,0 +1,19 @@
+.color-tool {
+  --black: #000000e0;
+  --white: #fff;
+  --bgBack: #141414;
+  padding: 20px 16px;
+}
+
+.color-tool.dark {
+  background-color: var(--bgBack);
+}
+
+.color-tool.dark .color-picker__title,
+.color-tool.dark .color-picker__value {
+  color: var(--white);
+}
+
+.color-tool__footer {
+  margin-top: 20px;
+}

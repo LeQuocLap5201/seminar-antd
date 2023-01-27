@@ -3,7 +3,7 @@ import { useState } from "react";
 const useCopyToClipboard = (text) => {
   const [copiedText, setCopiedText] = useState();
 
-  const copy = async (text) => {
+  const copy = async (text, callback) => {
     if (!navigator?.clipboard) {
       console.warn("Clipboard not supported");
       return false;
@@ -11,6 +11,7 @@ const useCopyToClipboard = (text) => {
 
     try {
       await navigator.clipboard.writeText(text);
+      callback();
       setCopiedText(text);
       return true;
     } catch (error) {

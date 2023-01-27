@@ -1,14 +1,22 @@
 import { Col, Divider, Row, Typography } from "antd";
-import { ContentDetail, PreviewImage } from "components";
+import { REFERENCE_LINK } from "common/links";
+import {
+  Code,
+  ColorList,
+  ColorTool,
+  ContentDetail,
+  PreviewImage,
+} from "components";
 import { BRAND_COLOR, FUNC_COLOR, NEUTRAL_COLOR } from "img";
 import React from "react";
 
 const { Title, Paragraph } = Typography;
 
-const referenceLink = {
-  hsb: "https://vi.wikipedia.org/wiki/Kh%C3%B4ng_gian_m%C3%A0u_HSB",
-  antv: "https://antv.vision/en/docs/specification/language/palette",
-  wcag: "https://aita.gov.vn/tieu-chuan-nguyen-tac-tro-nang-noi-dung-web-web-content-accessibility-guidelines-wcag-2.0#:~:text=WCAG%202.0%20l%C3%A0%20m%E1%BB%99t%20t%E1%BA%ADp,l%C3%BD%20trong%20c%C3%A1c%20nguy%C3%AAn%20t%E1%BA%AFc.",
+const code = {
+  install: `npm install @ant-design/colors`,
+  import: `import { blue } from '@ant-design/colors';
+console.log(blue); // ['#E6F7FF', '#BAE7FF', '#91D5FF', '#69C0FF', '#40A9FF', '#1890FF', '#096DD9', '#0050B3', '#003A8C', '#002766']
+console.log(blue.primary); // '#1890FF'`,
 };
 
 export default function Colors() {
@@ -36,7 +44,7 @@ export default function Colors() {
         {
           key: "data-visualization-color-palette",
           href: "#data-visualization-color-palette",
-          title: "Bảng màu trực quan hóa dữ liệu",
+          title: "Bảng màu minh họa dữ liệu",
         },
         {
           key: "palette-generation-tool",
@@ -93,7 +101,7 @@ export default function Colors() {
         </ul>
       </Paragraph>
       <Divider />
-      <div id="color-model">
+      <div id="color-model" className="mb-20">
         <Title level={2}>Mô hình màu sắc</Title>
         <Paragraph>
           Đội ngũ thiết kế của Ant Design ưu tiên thiết kế với mô hình màu HSB,
@@ -117,7 +125,7 @@ export default function Colors() {
             <Paragraph>
               Tìm hiểu thêm{" "}
               <a
-                href={referenceLink.hsb}
+                href={REFERENCE_LINK.hsb}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -127,7 +135,7 @@ export default function Colors() {
           </blockquote>
         </Paragraph>
       </div>
-      <div id="system-level-color-system" className="mb-16">
+      <div id="system-level-color-system" className="mb-20">
         <Title level={2}>Màu hệ thống</Title>
         <Paragraph>
           Dựa vào “Sự tự nhiên” và thông qua sự quan sát, để nắm bắt các màu sắc
@@ -135,26 +143,32 @@ export default function Colors() {
           vẽ ý tưởng, Ant Financial đã tạo ra 12 nhóm màu.
         </Paragraph>
       </div>
-      <div id="base-color-palettes" className="mb-16">
+      <div id="base-color-palettes" className="mb-20">
         <Title level={3}>Bảng màu cơ bản</Title>
         <Paragraph>
           Bảng màu của Ant Design có 120 màu và được chia làm 12 nhóm
         </Paragraph>
+        <div className="mb-16">
+          <ColorList />
+        </div>
         <Paragraph>
           Ngoài các màu trên Ant Design còn cung cấp một công cụ tạo một bảng
           màu dựa vào màu chủ đạo.
         </Paragraph>
       </div>
-      <div id="neutral-color-palette" className="mb-16">
+      <div id="neutral-color-palette" className="mb-20">
         <Title level={3}>Bảng màu trung tính</Title>
+        <div className="mb-16">
+          <ColorTool isNeutral />
+        </div>
       </div>
-      <div id="data-visualization-color-palette" className="mb-16">
-        <Title level={3}>Bảng màu trực quan hóa dữ liệu</Title>
+      <div id="data-visualization-color-palette" className="mb-20">
+        <Title level={3}>Bảng màu minh họa dữ liệu</Title>
         <Paragraph>
           Dựa trên bảng màu cơ bản và bảng màu trung tính, đồng thời dựa trên
           nguyên tắc "hiệu quả, rõ ràng, chính xác và đẹp" của{" "}
           <a
-            href={referenceLink.antv}
+            href={REFERENCE_LINK.antv}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -163,21 +177,39 @@ export default function Colors() {
           .
         </Paragraph>
       </div>
-      <div id="palette-generation-tool" className="mb-16">
+      <div id="palette-generation-tool" className="mb-20">
         <Title level={3}>Công cụ tạo bảng màu</Title>
         <Paragraph>
           Nếu các bảng màu trên không đáp ứng nhu cầu của bạn, bạn có thể chọn
           một màu chủ đạo và với thuật toán tạo màu của Ant Design sẽ tạo ra một
           bảng màu cho bạn.
         </Paragraph>
+        <div className="mb-16">
+          <ColorTool />
+        </div>
       </div>
-      <div id="programmatic-usage" className="mb-16">
+      <div id="programmatic-usage" className="mb-20">
         <Title level={3}>Sử dụng trong lập trình</Title>
+        <Paragraph>
+          Chúng tôi cung cấp cách sử dụng JavaScript cho các nhà phát triển.
+        </Paragraph>
+        <Code code={code.install} />
+        <Code code={code.import} />
+        <Paragraph>
+          Xem thêm:{" "}
+          <a
+            href={REFERENCE_LINK.colors}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @ant-design/colors
+          </a>
+        </Paragraph>
       </div>
-      <div id="product-level-color-system" className="mb-16">
+      <div id="product-level-color-system" className="mb-20">
         <Title level={2}>Màu sản phẩm</Title>
       </div>
-      <div id="brand-color" className="mb-16">
+      <div id="brand-color" className="mb-20">
         <Title level={3}>Màu thương hiệu</Title>
         <Row>
           <Col span={14}>
@@ -193,7 +225,7 @@ export default function Colors() {
           </Col>
         </Row>
       </div>
-      <div id="functional-color" className="mb-16">
+      <div id="functional-color" className="mb-20">
         <Title level={3}>Màu chức năng</Title>
         <Row>
           <Col span={14}>
@@ -211,7 +243,7 @@ export default function Colors() {
           </Col>
         </Row>
       </div>
-      <div id="neutral-color" className="mb-16">
+      <div id="neutral-color" className="mb-20">
         <Title level={3}>Màu trung tính</Title>
         <Row>
           <Col span={14}>
@@ -221,7 +253,7 @@ export default function Colors() {
               sự khác biệt giữa nền tối và nền sáng, đồng thời kết hợp tiêu
               chuẩn{" "}
               <a
-                href={referenceLink.wcag}
+                href={REFERENCE_LINK.wcag}
                 target="_blank"
                 rel="noopener noreferrer"
               >

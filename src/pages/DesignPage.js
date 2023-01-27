@@ -30,7 +30,7 @@ export default function DesignPage() {
           key: "layout",
         },
         {
-          label: <Link to="/spec/font">Nét chữ</Link>,
+          label: <Link to="/spec/font">Phông chữ</Link>,
           key: "font",
         },
         {
@@ -89,7 +89,7 @@ export default function DesignPage() {
             {
               label: (
                 <Link to="/spec/visualization-page">
-                  Trang hình dung dữ liệu
+                  Trang minh họa dữ liệu
                 </Link>
               ),
               key: "visualization-page",
@@ -148,7 +148,7 @@ export default function DesignPage() {
         },
       ],
     },
-    { label: <Link to="/spec/visual">Hình dung</Link>, key: "visual" },
+    { label: <Link to="/spec/visual">Minh họa</Link>, key: "visual" },
     { label: <Link to="/spec/motion">Chuyển động</Link>, key: "motion" },
     { label: <Link to="/spec/illustration">Đồ họa</Link>, key: "illustration" },
   ];

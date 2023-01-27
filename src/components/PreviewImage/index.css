@@ -1,4 +1,24 @@
+.priview-image {
+  --blue: #1677ff;
+  --red: #ff4d4f;
+  --background: #f2f4f5;
+}
+
 .priview-image__box {
-  padding: 16px;
-  background-color: #f2f4f5;
+  background-color: var(--background);
+  text-align: center;
+}
+
+.priview-image__box.good {
+  border-bottom: 3px solid var(--blue);
+}
+
+.priview-image__box.bad {
+  border-bottom: 3px solid var(--red);
+}
+
+.priview-image__content span.desc {
+  display: block;
+  font-size: 12px;
+  font-weight: initial;
 }

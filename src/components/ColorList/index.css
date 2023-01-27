@@ -1,0 +1,8 @@
+.color-list {
+  --bgBlack: #141414;
+  padding: 20px 16px;
+}
+
+.color-list.dark {
+  background-color: var(--bgBlack);
+}

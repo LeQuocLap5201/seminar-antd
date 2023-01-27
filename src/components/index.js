@@ -2,3 +2,8 @@ export { default as DefaultHeader } from "./DefaultHeader";
 export { default as PrivateRoute } from "./PrivateRoute";
 export { default as ContentDetail } from "./ContentDetail";
 export { default as PreviewImage } from "./PreviewImage";
+export { default as ColorList } from "./ColorList";
+export { default as ColorPalette } from "./ColorPalette";
+export { default as ColorTool } from "./ColorTool";
+export { default as ColorPicker } from "./ColorPicker";
+export { default as Code } from "./Code";

@@ -1,0 +1,32 @@
+.color-picker {
+  --white: #fff;
+}
+
+.color-picker__box {
+  display: flex;
+  align-items: center;
+}
+
+.color-picker__main {
+  padding: 4px;
+  width: 104px;
+  height: 32px;
+  cursor: pointer;
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 0px 1px;
+  border-radius: 2px;
+  margin-right: 16px;
+  background-color: var(--white);
+}
+
+.color-picker__content {
+  border-radius: 2px;
+}
+
+.color-picker__absolute {
+  position: absolute;
+  z-index: 999;
+}
+
+.color-picker__title {
+  font-size: 20px;
+}

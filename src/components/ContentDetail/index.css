@@ -25,3 +25,13 @@
 .content-detail img.with-margin {
   margin: 16px 0;
 }
+
+.content-detail img.shadow {
+  box-shadow: 0 8px 20px rgb(143 168 191 / 35%);
+}
+
+.content-detail img.margin-auto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

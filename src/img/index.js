@@ -45,6 +45,19 @@ import BUSINESS_ICONS from "./Design/business-icons.png";
 import ICON_SIZING_1 from "./Design/icon-sizing-1.png";
 import ICON_COLOR_1 from "./Design/icon-color-1.png";
 import OVERVIEW_ETC from "./Design/overview-etc.png";
+import FEEDBACK_ALERT from "./Design/feedback-alert.png";
+import FEEDBACK_NOTI from "./Design/feedback-noti.png";
+import FEEDBACK_BADGE from "./Design/feedback-badge.png";
+import FEEDBACK_POPOVER from "./Design/feedback-popover.png";
+import FEEDBACK_TOOLTIP from "./Design/feedback-tooltip.png";
+import FEEDBACK_LOADING from "./Design/feedback-loading.png";
+import FEEDBACK_PROGRESS from "./Design/feedback-progress.png";
+import FEEDBACK_INPUT_ERROR from "./Design/feedback-input-error.png";
+import FEEDBACK_POPCONFIRM from "./Design/feedback-popconfirm.png";
+import FEEDBACK_MESSAGE from "./Design/feedback-message.png";
+import FEEDBACK_MESSAGE_GOOD from "./Design/feedback-message-good.png";
+import FEEDBACK_MESSAGE_BAD from "./Design/feedback-message-bad.png";
+import FEEDBACK_DIALOG from "./Design/feedback-dialog.png";
 
 export {
   DESIGN_INTRODUCTION,
@@ -94,4 +107,17 @@ export {
   ICON_SIZING_1,
   ICON_COLOR_1,
   OVERVIEW_ETC,
+  FEEDBACK_ALERT,
+  FEEDBACK_NOTI,
+  FEEDBACK_BADGE,
+  FEEDBACK_POPOVER,
+  FEEDBACK_TOOLTIP,
+  FEEDBACK_LOADING,
+  FEEDBACK_PROGRESS,
+  FEEDBACK_INPUT_ERROR,
+  FEEDBACK_POPCONFIRM,
+  FEEDBACK_MESSAGE,
+  FEEDBACK_MESSAGE_GOOD,
+  FEEDBACK_MESSAGE_BAD,
+  FEEDBACK_DIALOG,
 };

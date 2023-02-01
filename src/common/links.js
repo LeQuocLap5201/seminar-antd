@@ -7,6 +7,7 @@ const REFERENCE_LINK = {
   icons: "https://ant.design/components/icon/",
   illustratorTips:
     "https://zos.alipayobjects.com/rmsportal/hmNuLjCkBssupcZgYAde.png",
+  ant_input: "https://ant.design/components/input/",
 };
 
 export { REFERENCE_LINK };

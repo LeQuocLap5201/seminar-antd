@@ -61,7 +61,7 @@ export default function DesignPage() {
               key: "navigation",
             },
             {
-              label: <Link to="/spec/data-entry">Nhập liệu</Link>,
+              label: <Link to="/spec/data-entry">Nhập dữ liệu</Link>,
               key: "data-entry",
             },
             {

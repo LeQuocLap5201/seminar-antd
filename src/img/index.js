@@ -58,6 +58,43 @@ import FEEDBACK_MESSAGE from "./Design/feedback-message.png";
 import FEEDBACK_MESSAGE_GOOD from "./Design/feedback-message-good.png";
 import FEEDBACK_MESSAGE_BAD from "./Design/feedback-message-bad.png";
 import FEEDBACK_DIALOG from "./Design/feedback-dialog.png";
+import NAV_TOP_NAV from "./Design/nav-top-nav.png";
+import NAV_SLIDE_NAV from "./Design/nav-slide-nav.png";
+import NAV_BREADCRUMB from "./Design/nav-breadcrumb.png";
+import NAV_TABS_BASIC from "./Design/nav-tabs-basic.png";
+import NAV_TABS_CARD from "./Design/nav-tabs-card.png";
+import NAV_TABS_PILL from "./Design/nav-tabs-pill.png";
+import NAV_TABS_VERTICAL from "./Design/nav-tabs-vertical.png";
+import NAV_STEPS_HORIZONTAL from "./Design/nav-steps-horizontal.png";
+import NAV_STEPS_VERTICAL from "./Design/nav-steps-vertical.png";
+import NAV_PAGINATION_BASIC from "./Design/nav-pagination-basic.png";
+import NAV_PAGINATION_MINI from "./Design/nav-pagination-mini.png";
+import NAV_PAGINATION_SIMPLE from "./Design/nav-pagination-simple.png";
+import DATA_ENTRY_INPUT from "./Design/entry-input.png";
+import DATA_ENTRY_TEXTAREA from "./Design/entry-textarea.png";
+import DATA_ENTRY_TIPS_1 from "./Design/entry-tips-1.png";
+import DATA_ENTRY_TIPS_2 from "./Design/entry-tips-2.png";
+import DATA_ENTRY_TIPS_3 from "./Design/entry-tips-3.png";
+import DATA_ENTRY_SEARCH from "./Design/entry-search.png";
+import DATA_ENTRY_RADIO from "./Design/entry-radio.png";
+import DATA_ENTRY_CHECKBOX from "./Design/entry-checkbox.png";
+import DATA_ENTRY_SWITCH from "./Design/entry-switch.png";
+import DATA_ENTRY_SWITCH_GOOD from "./Design/entry-switch-good.png";
+import DATA_ENTRY_SWITCH_BAD from "./Design/entry-switch-bad.png";
+import DATA_ENTRY_DROPDOWN from "./Design/entry-dropdown.png";
+import DATA_ENTRY_SLIDER_1 from "./Design/entry-slider-1.png";
+import DATA_ENTRY_SLIDER_2 from "./Design/entry-slider-2.png";
+import DATA_ENTRY_TRANSFER from "./Design/entry-transfer.png";
+import DATA_ENTRY_DATE_PICKER from "./Design/entry-datepicker.png";
+import DATA_ENTRY_UPLOAD_CLICK from "./Design/entry-upload-click.png";
+import DATA_ENTRY_UPLOAD_THUMBNAILS from "./Design/entry-upload-thumbnails.png";
+import DATA_ENTRY_UPLOAD_DRAG from "./Design/entry-upload-drag.png";
+import DATA_DISPLAY_TABLE from "./Design/display-table.png";
+import DATA_DISPLAY_COLLAPSE from "./Design/display-collapse.png";
+import DATA_DISPLAY_CARD from "./Design/display-card.png";
+import DATA_DISPLAY_CAROUSEL from "./Design/display-carousel.png";
+import DATA_DISPLAY_TREE from "./Design/display-tree.png";
+import DATA_DISPLAY_TIMELINE from "./Design/display-timeline.png";
 
 export {
   DESIGN_INTRODUCTION,
@@ -120,4 +157,41 @@ export {
   FEEDBACK_MESSAGE_GOOD,
   FEEDBACK_MESSAGE_BAD,
   FEEDBACK_DIALOG,
+  NAV_TOP_NAV,
+  NAV_SLIDE_NAV,
+  NAV_BREADCRUMB,
+  NAV_TABS_BASIC,
+  NAV_TABS_CARD,
+  NAV_TABS_PILL,
+  NAV_TABS_VERTICAL,
+  NAV_STEPS_HORIZONTAL,
+  NAV_STEPS_VERTICAL,
+  NAV_PAGINATION_BASIC,
+  NAV_PAGINATION_MINI,
+  NAV_PAGINATION_SIMPLE,
+  DATA_ENTRY_INPUT,
+  DATA_ENTRY_TEXTAREA,
+  DATA_ENTRY_TIPS_1,
+  DATA_ENTRY_TIPS_2,
+  DATA_ENTRY_TIPS_3,
+  DATA_ENTRY_SEARCH,
+  DATA_ENTRY_RADIO,
+  DATA_ENTRY_CHECKBOX,
+  DATA_ENTRY_SWITCH,
+  DATA_ENTRY_SWITCH_GOOD,
+  DATA_ENTRY_SWITCH_BAD,
+  DATA_ENTRY_DROPDOWN,
+  DATA_ENTRY_SLIDER_1,
+  DATA_ENTRY_SLIDER_2,
+  DATA_ENTRY_TRANSFER,
+  DATA_ENTRY_DATE_PICKER,
+  DATA_ENTRY_UPLOAD_CLICK,
+  DATA_ENTRY_UPLOAD_THUMBNAILS,
+  DATA_ENTRY_UPLOAD_DRAG,
+  DATA_DISPLAY_TABLE,
+  DATA_DISPLAY_COLLAPSE,
+  DATA_DISPLAY_CARD,
+  DATA_DISPLAY_CAROUSEL,
+  DATA_DISPLAY_TREE,
+  DATA_DISPLAY_TIMELINE,
 };

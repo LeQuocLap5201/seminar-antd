@@ -8,7 +8,9 @@ export default function PreviewImage({ src, children, status, className }) {
       <div className={`p-16 priview-image__box${status ? ` ${status}` : ""}`}>
         <Image src={src} />
       </div>
-      <div className="mt-16 priview-image__content">{children}</div>
+      {children ? (
+        <div className="mt-16 priview-image__content">{children}</div>
+      ) : null}
     </div>
   );
 }

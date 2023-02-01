@@ -11,7 +11,7 @@ const { useToken } = theme;
 
 const { Header, Content, Sider } = Layout;
 
-const items1 = ["1", "2", "3"].map((key) => ({
+const items1 = ["1", "2", "3", "4", "5"].map((key) => ({
   key,
   label: `nav ${key}`,
 }));
@@ -34,7 +34,7 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
   }
 );
 
-export default function LayoutExample({ showSwitch = false }) {
+export default function LayoutExample({ showSwitch = false, isNav = false }) {
   const {
     token: { colorBgContainer },
   } = useToken();
@@ -50,20 +50,22 @@ export default function LayoutExample({ showSwitch = false }) {
       {showSwitch ? (
         <Switch
           className="mb-16"
-          checkedChildren="Bố cục Trên-Dưới"
-          unCheckedChildren="Bố cục Trái-Phải"
+          checkedChildren={isNav ? "Điều hướng trên cùng" : "Bố cục Trên-Dưới"}
+          unCheckedChildren={isNav ? "Điều hướng bên" : "Bố cục Trái-Phải"}
           onChange={onChange}
         />
       ) : null}
       <Layout>
         <Header className="header">
           <div className="logo" />
-          <Menu
-            theme="dark"
-            mode="horizontal"
-            defaultSelectedKeys={["2"]}
-            items={items1}
-          />
+          {(isNav && layout === "top-bottom") || !isNav ? (
+            <Menu
+              theme="dark"
+              mode="horizontal"
+              defaultSelectedKeys={["2"]}
+              items={items1}
+            />
+          ) : null}
         </Header>
         {layout === "top-bottom" ? (
           <Content

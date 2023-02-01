@@ -28,6 +28,7 @@ export default function ContentLayout({ menu, openKeys }) {
         </Col>
         <Col xs={0} sm={0} md={18} lg={18} xl={19} xxl={20} style={styles}>
           <Outlet />
+          {/* <footer>Footer</footer> */}
         </Col>
       </Row>
     </main>

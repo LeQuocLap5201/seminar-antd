@@ -95,6 +95,45 @@ import DATA_DISPLAY_CARD from "./Design/display-card.png";
 import DATA_DISPLAY_CAROUSEL from "./Design/display-carousel.png";
 import DATA_DISPLAY_TREE from "./Design/display-tree.png";
 import DATA_DISPLAY_TIMELINE from "./Design/display-timeline.png";
+import COPY_ARTICULATE_GOOD from "./Design/copy-articulate-good.png";
+import COPY_ARTICULATE_BAD from "./Design/copy-articulate-bad.png";
+import COPY_CONCISE_GOOD from "./Design/copy-concise-good.png";
+import COPY_CONCISE_BAD from "./Design/copy-concise-bad.png";
+import COPY_WORDS_GOOD from "./Design/copy-words-good.png";
+import COPY_WORDS_BAD from "./Design/copy-words-bad.png";
+import COPY_CONSISTENTLY_GOOD from "./Design/copy-consistently-good.png";
+import COPY_CONSISTENTLY_BAD from "./Design/copy-consistently-bad.png";
+import COPY_CONSISTENTLY_EX from "./Design/copy-consistently-ex.png";
+import COPY_PLACE_GOOD from "./Design/copy-place-good.png";
+import COPY_PLACE_BAD from "./Design/copy-place-bad.png";
+import COPY_EXPRESS_1_GOOD from "./Design/copy-express-1-good.png";
+import COPY_EXPRESS_1_BAD from "./Design/copy-express-1-bad.png";
+import COPY_EXPRESS_2_GOOD from "./Design/copy-express-2-good.png";
+import COPY_EXPRESS_2_BAD from "./Design/copy-express-2-bad.png";
+import COPY_PRECISELY_1_GOOD from "./Design/copy-precisely-1-good.png";
+import COPY_PRECISELY_1_BAD from "./Design/copy-precisely-1-bad.png";
+import COPY_PRECISELY_2_GOOD from "./Design/copy-precisely-2-good.png";
+import COPY_PRECISELY_2_BAD from "./Design/copy-precisely-2-bad.png";
+import COPY_BRING_GOOD from "./Design/copy-bring-good.png";
+import COPY_BRING_BAD from "./Design/copy-bring-bad.png";
+import COPY_FRIENDLY_GOOD from "./Design/copy-friendly-good.png";
+import COPY_FRIENDLY_BAD from "./Design/copy-friendly-bad.png";
+import COPY_EXTREME_GOOD from "./Design/copy-extreme-good.png";
+import COPY_EXTREME_BAD from "./Design/copy-extreme-bad.png";
+import COPY_UP_LOW_1_GOOD from "./Design/copy-up-low-1-good.png";
+import COPY_UP_LOW_1_BAD from "./Design/copy-up-low-1-bad.png";
+import COPY_UP_LOW_2_GOOD from "./Design/copy-up-low-2-good.png";
+import COPY_UP_LOW_2_BAD from "./Design/copy-up-low-2-bad.png";
+import COPY_UP_LOW_3_GOOD from "./Design/copy-up-low-3-good.png";
+import COPY_UP_LOW_3_BAD from "./Design/copy-up-low-3-bad.png";
+import COPY_NUMBERS_GOOD from "./Design/copy-numbers-good.png";
+import COPY_NUMBERS_BAD from "./Design/copy-numbers-bad.png";
+import COPY_OMIT_GOOD from "./Design/copy-omit-good.png";
+import COPY_OMIT_BAD from "./Design/copy-omit-bad.png";
+import COPY_OMIT_TOOLTIP_GOOD from "./Design/copy-omit-tooltip-good.png";
+import COPY_OMIT_TOOLTIP_BAD from "./Design/copy-omit-tooltip-bad.png";
+import COPY_MARKS_GOOD from "./Design/copy-marks-good.png";
+import COPY_MARKS_BAD from "./Design/copy-marks-bad.png";
 
 export {
   DESIGN_INTRODUCTION,
@@ -194,4 +233,43 @@ export {
   DATA_DISPLAY_CAROUSEL,
   DATA_DISPLAY_TREE,
   DATA_DISPLAY_TIMELINE,
+  COPY_ARTICULATE_GOOD,
+  COPY_ARTICULATE_BAD,
+  COPY_CONCISE_GOOD,
+  COPY_CONCISE_BAD,
+  COPY_WORDS_GOOD,
+  COPY_WORDS_BAD,
+  COPY_CONSISTENTLY_GOOD,
+  COPY_CONSISTENTLY_BAD,
+  COPY_CONSISTENTLY_EX,
+  COPY_PLACE_GOOD,
+  COPY_PLACE_BAD,
+  COPY_EXPRESS_1_GOOD,
+  COPY_EXPRESS_1_BAD,
+  COPY_EXPRESS_2_GOOD,
+  COPY_EXPRESS_2_BAD,
+  COPY_PRECISELY_1_GOOD,
+  COPY_PRECISELY_1_BAD,
+  COPY_PRECISELY_2_GOOD,
+  COPY_PRECISELY_2_BAD,
+  COPY_BRING_GOOD,
+  COPY_BRING_BAD,
+  COPY_FRIENDLY_GOOD,
+  COPY_FRIENDLY_BAD,
+  COPY_EXTREME_GOOD,
+  COPY_EXTREME_BAD,
+  COPY_UP_LOW_1_GOOD,
+  COPY_UP_LOW_1_BAD,
+  COPY_UP_LOW_2_GOOD,
+  COPY_UP_LOW_2_BAD,
+  COPY_UP_LOW_3_GOOD,
+  COPY_UP_LOW_3_BAD,
+  COPY_NUMBERS_GOOD,
+  COPY_NUMBERS_BAD,
+  COPY_OMIT_GOOD,
+  COPY_OMIT_BAD,
+  COPY_OMIT_TOOLTIP_GOOD,
+  COPY_OMIT_TOOLTIP_BAD,
+  COPY_MARKS_GOOD,
+  COPY_MARKS_BAD,
 };

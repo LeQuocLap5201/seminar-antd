@@ -8,6 +8,8 @@ const REFERENCE_LINK = {
   illustratorTips:
     "https://zos.alipayobjects.com/rmsportal/hmNuLjCkBssupcZgYAde.png",
   ant_input: "https://ant.design/components/input/",
+  copywriting:
+    "https://advertisingvietnam.com/copywriting-la-gi-tat-tan-tat-ve-copywriting-ma-ban-can-biet-p20439",
 };
 
 export { REFERENCE_LINK };

@@ -10,6 +10,7 @@ const REFERENCE_LINK = {
   ant_input: "https://ant.design/components/input/",
   copywriting:
     "https://advertisingvietnam.com/copywriting-la-gi-tat-tan-tat-ve-copywriting-ma-ban-can-biet-p20439",
+  currencySymbol: "https://www.iban.com/currency-codes",
 };
 
 export { REFERENCE_LINK };

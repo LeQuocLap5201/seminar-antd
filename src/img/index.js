@@ -134,6 +134,13 @@ import COPY_OMIT_TOOLTIP_GOOD from "./Design/copy-omit-tooltip-good.png";
 import COPY_OMIT_TOOLTIP_BAD from "./Design/copy-omit-tooltip-bad.png";
 import COPY_MARKS_GOOD from "./Design/copy-marks-good.png";
 import COPY_MARKS_BAD from "./Design/copy-marks-bad.png";
+import DATA_FORMAT_NUMERICAL_GOOD from "./Design/data-format-numerical-good.png";
+import DATA_FORMAT_NUMERICAL_BAD from "./Design/data-format-numerical-bad.png";
+import DATA_FORMAT_REDACTION_GOOD from "./Design/data-format-redaction-good.png";
+import DATA_FORMAT_REDACTION_BAD from "./Design/data-format-redaction-bad.png";
+import DATA_FORMAT_EMPTY_GOOD from "./Design/data-format-empty-good.png";
+import DATA_FORMAT_EMPTY_BAD from "./Design/data-format-empty-bad.png";
+import DATA_FORMAT_LOADING from "./Design/data-format-loading.png";
 
 export {
   DESIGN_INTRODUCTION,
@@ -272,4 +279,11 @@ export {
   COPY_OMIT_TOOLTIP_BAD,
   COPY_MARKS_GOOD,
   COPY_MARKS_BAD,
+  DATA_FORMAT_NUMERICAL_GOOD,
+  DATA_FORMAT_NUMERICAL_BAD,
+  DATA_FORMAT_REDACTION_GOOD,
+  DATA_FORMAT_REDACTION_BAD,
+  DATA_FORMAT_EMPTY_GOOD,
+  DATA_FORMAT_EMPTY_BAD,
+  DATA_FORMAT_LOADING,
 };
